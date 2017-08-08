@@ -11,8 +11,9 @@ int main() {
   
  // printf("Digite a frase que deseja \n");
   scanf("%[^\n]",  frase); 
- 
-  printf("Numero de palavras da frase: %d \n", palavras(frase) );
+	
+ //Numero de palavras da frase
+  printf("%d\n", palavras(frase) );
   return 0;
 }
 
